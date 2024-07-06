@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
 alloy = { version = "0.1", features = [
     "network",
     "providers",
@@ -15,4 +16,9 @@ alloy = { version = "0.1", features = [
     "contract",
     "sol-types",
 ] }
+
 tokio = { version = "1.38.0", features = ["full"] }
+
+[[bin]]
+name = "balance"
+path = "example/token_balance.rs"
