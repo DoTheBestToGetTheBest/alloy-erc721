@@ -19,6 +19,6 @@ alloy = { version = "0.1", features = [
 
 tokio = { version = "1.38.0", features = ["full"] }
 
-[[bin]]
+[[example]]
 name = "balance"
 path = "example/token_balance.rs"
